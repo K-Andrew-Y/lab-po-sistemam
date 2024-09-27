@@ -1,10 +1,10 @@
-def add (x,y): # add - сложение
-    return x+y # return - возвращает
-def subtruct (x,y):#subtruct - вычитание
+def add (x,y):
+    return x+y
+def subtruct (x,y):
     return x-y
-def multiply (a,b): #multiply - умножение
+def multiply (a,b):
     return a*b
-def divide (x,y): # divide - деление
+def divide (x,y):
 
 print(subtruct (10,4))
 print(add (3,4))
