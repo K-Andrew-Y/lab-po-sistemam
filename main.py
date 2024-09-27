@@ -5,6 +5,10 @@ def subtruct (x,y):
 def multiply (a,b):
     return a*b
 def divide (x,y):
+    if y==0:
+        return "Ошибка. Деление на ноль"
+    else:
+        return x/y
 
 print(subtruct (10,4))
 print(add (3,4))
